@@ -26,7 +26,7 @@ enum Genre: String {
   case music
   case family
   case history
-
+case fam
   static var count: Int { return Genre.history.hashValue + 1}
 }
 
